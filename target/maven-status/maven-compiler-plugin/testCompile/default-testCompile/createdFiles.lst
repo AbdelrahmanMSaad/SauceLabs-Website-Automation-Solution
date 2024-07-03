@@ -1,0 +1,6 @@
+steps\LoginSteps.class
+testCases\tests\FullPurchaseScenarioTest.class
+testCases\tests\LoginPageTest.class
+testCases\baseTest\BaseTest.class
+runners\TestRunner.class
+testCases\testCasesNames\TestCasesNames.class

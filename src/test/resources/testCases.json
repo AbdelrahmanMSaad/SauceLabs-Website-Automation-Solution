@@ -1,0 +1,38 @@
+[
+  {
+    "testCaseName": "Login in with valid credentials",
+    "userName": "standard_user",
+    "password": "secret_sauce"
+  },
+  {
+    "testCaseName": "Login without username or password"
+  },
+  {
+    "testCaseName": "Login with username and without password",
+    "userName": "standard_user"
+  },
+  {
+    "testCaseName": "Login in with valid username invalid password",
+    "userName": "standard_user",
+    "password": "invalid"
+  },
+  {
+    "testCaseName": "Login in with invalid username valid password",
+    "userName": "invalid",
+    "password": "secret_sauce"
+  },
+  {
+    "testCaseName": "Login in with invalid username invalid password",
+    "userName": "invalid",
+    "password": "invalid"
+  },
+  {
+    "testCaseName": "Full purchase test",
+    "userName": "standard_user",
+    "password": "secret_sauce",
+    "firstName": "Abdel-rahman",
+    "lastName": "Saad",
+    "zipcode": "21500",
+    "expectedUrl": "https://www.saucedemo.com/checkout-step-two.html"
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Work/IdeaProjects/SauceLabs_Website" parallel="methods" thread-count="2">
+        <classes>
+            <class name="testCases.tests.FullPurchaseScenarioTest">
+                <methods>
+                    <include name="testFullPurchaseScenario"/>
+                </methods>
+            </class>
+            <class name="testCases.tests.LoginPageTest">
+                <methods>
+                    <include name="loginWithValidCredentials"/>
+                    <include name="loginWithoutUsernameOrPassword"/>
+                    <include name="loginWithUsernameAndWithoutPassword"/>
+                    <include name="loginWithValidUsernameInvalidPassword"/>
+                    <include name="loginWithInvalidUsernameValidPassword"/>
+                    <include name="loginWithInvalidUsernameInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
