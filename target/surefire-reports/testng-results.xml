@@ -2,114 +2,114 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T01:57:26 EET" name="Surefire suite" finished-at="2024-07-03T01:58:12 EET" duration-ms="46405">
+  <suite started-at="2025-03-23T13:44:46 EET" name="Surefire suite" finished-at="2025-03-23T13:45:09 EET" duration-ms="22689">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-03T01:57:26 EET" name="Surefire test" finished-at="2024-07-03T01:58:12 EET" duration-ms="46405">
+    <test started-at="2025-03-23T13:44:46 EET" name="Surefire test" finished-at="2025-03-23T13:45:09 EET" duration-ms="22689">
       <class name="testCases.tests.LoginPageTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:57:54 EET" name="beforeTest" finished-at="2024-07-03T01:57:58 EET" duration-ms="4117" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:00 EET" name="beforeTest" finished-at="2025-03-23T13:45:01 EET" duration-ms="1448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithInvalidUsernameInvalidPassword()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:57:58 EET" name="loginWithInvalidUsernameInvalidPassword" finished-at="2024-07-03T01:57:58 EET" duration-ms="227" status="PASS">
+        <test-method signature="loginWithInvalidUsernameInvalidPassword()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:01 EET" name="loginWithInvalidUsernameInvalidPassword" finished-at="2025-03-23T13:45:01 EET" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidUsernameInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:57:58 EET" name="tearDown" finished-at="2024-07-03T01:57:59 EET" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:01 EET" name="tearDown" finished-at="2025-03-23T13:45:01 EET" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:57:59 EET" name="beforeTest" finished-at="2024-07-03T01:58:01 EET" duration-ms="2242" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:01 EET" name="beforeTest" finished-at="2025-03-23T13:45:03 EET" duration-ms="1267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithInvalidUsernameValidPassword()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:01 EET" name="loginWithInvalidUsernameValidPassword" finished-at="2024-07-03T01:58:01 EET" duration-ms="181" status="PASS">
+        <test-method signature="loginWithInvalidUsernameValidPassword()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:03 EET" name="loginWithInvalidUsernameValidPassword" finished-at="2025-03-23T13:45:03 EET" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidUsernameValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:01 EET" name="tearDown" finished-at="2024-07-03T01:58:01 EET" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:03 EET" name="tearDown" finished-at="2025-03-23T13:45:03 EET" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:01 EET" name="beforeTest" finished-at="2024-07-03T01:58:04 EET" duration-ms="2549" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:03 EET" name="beforeTest" finished-at="2025-03-23T13:45:04 EET" duration-ms="1230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithUsernameAndWithoutPassword()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:04 EET" name="loginWithUsernameAndWithoutPassword" finished-at="2024-07-03T01:58:04 EET" duration-ms="137" status="PASS">
+        <test-method signature="loginWithUsernameAndWithoutPassword()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:04 EET" name="loginWithUsernameAndWithoutPassword" finished-at="2025-03-23T13:45:04 EET" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithUsernameAndWithoutPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:04 EET" name="tearDown" finished-at="2024-07-03T01:58:04 EET" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:04 EET" name="tearDown" finished-at="2025-03-23T13:45:04 EET" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:04 EET" name="beforeTest" finished-at="2024-07-03T01:58:06 EET" duration-ms="2240" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:04 EET" name="beforeTest" finished-at="2025-03-23T13:45:06 EET" duration-ms="1230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithValidCredentials()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:06 EET" name="loginWithValidCredentials" finished-at="2024-07-03T01:58:06 EET" duration-ms="184" status="PASS">
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:06 EET" name="loginWithValidCredentials" finished-at="2025-03-23T13:45:06 EET" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:06 EET" name="tearDown" finished-at="2024-07-03T01:58:06 EET" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:06 EET" name="tearDown" finished-at="2025-03-23T13:45:06 EET" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:06 EET" name="beforeTest" finished-at="2024-07-03T01:58:09 EET" duration-ms="2407" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:06 EET" name="beforeTest" finished-at="2025-03-23T13:45:07 EET" duration-ms="1178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:09 EET" name="loginWithValidUsernameInvalidPassword" finished-at="2024-07-03T01:58:09 EET" duration-ms="174" status="PASS">
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:07 EET" name="loginWithValidUsernameInvalidPassword" finished-at="2025-03-23T13:45:07 EET" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidUsernameInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:09 EET" name="tearDown" finished-at="2024-07-03T01:58:09 EET" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:07 EET" name="tearDown" finished-at="2025-03-23T13:45:08 EET" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:09 EET" name="beforeTest" finished-at="2024-07-03T01:58:12 EET" duration-ms="2703" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:08 EET" name="beforeTest" finished-at="2025-03-23T13:45:09 EET" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginWithoutUsernameOrPassword()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:12 EET" name="loginWithoutUsernameOrPassword" finished-at="2024-07-03T01:58:12 EET" duration-ms="75" status="PASS">
+        <test-method signature="loginWithoutUsernameOrPassword()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:09 EET" name="loginWithoutUsernameOrPassword" finished-at="2025-03-23T13:45:09 EET" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutUsernameOrPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@441cc260]" started-at="2024-07-03T01:58:12 EET" name="tearDown" finished-at="2024-07-03T01:58:12 EET" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.LoginPageTest@3a4ba480]" started-at="2025-03-23T13:45:09 EET" name="tearDown" finished-at="2025-03-23T13:45:09 EET" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.tests.LoginPageTest -->
       <class name="testCases.tests.FullPurchaseScenarioTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@383f1975]" started-at="2024-07-03T01:57:49 EET" name="beforeTest" finished-at="2024-07-03T01:57:53 EET" duration-ms="3420" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@76075d65]" started-at="2025-03-23T13:44:57 EET" name="beforeTest" finished-at="2025-03-23T13:44:58 EET" duration-ms="1244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testFullPurchaseScenario()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@383f1975]" started-at="2024-07-03T01:57:53 EET" name="testFullPurchaseScenario" finished-at="2024-07-03T01:57:54 EET" duration-ms="1116" status="PASS">
+        <test-method signature="testFullPurchaseScenario()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@76075d65]" started-at="2025-03-23T13:44:58 EET" name="testFullPurchaseScenario" finished-at="2025-03-23T13:45:00 EET" duration-ms="1171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFullPurchaseScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@383f1975]" started-at="2024-07-03T01:57:54 EET" name="tearDown" finished-at="2024-07-03T01:57:54 EET" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.tests.FullPurchaseScenarioTest@76075d65]" started-at="2025-03-23T13:45:00 EET" name="tearDown" finished-at="2025-03-23T13:45:00 EET" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.tests.FullPurchaseScenarioTest -->
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:26 EET" name="setUpClass" finished-at="2024-07-03T01:57:26 EET" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:46 EET" name="setUpClass" finished-at="2025-03-23T13:44:47 EET" duration-ms="253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@580c4c0b]]>
+                <![CDATA[org.testng.TestRunner@1013aa94]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:26 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:32 EET" duration-ms="6351" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:47 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:49 EET" duration-ms="2671" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:32 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:35 EET" duration-ms="3317" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:49 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:51 EET" duration-ms="1518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:35 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:40 EET" duration-ms="4144" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:52 EET" duration-ms="1414" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:40 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:44 EET" duration-ms="4164" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:52 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:54 EET" duration-ms="1528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:44 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:46 EET" duration-ms="2610" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:54 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:56 EET" duration-ms="1741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:46 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-03T01:57:49 EET" duration-ms="3029" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:56 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-23T13:44:57 EET" duration-ms="1500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@3a91d146]" started-at="2024-07-03T01:57:49 EET" name="tearDownClass" finished-at="2024-07-03T01:57:49 EET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@76954a33]" started-at="2025-03-23T13:44:57 EET" name="tearDownClass" finished-at="2025-03-23T13:44:57 EET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

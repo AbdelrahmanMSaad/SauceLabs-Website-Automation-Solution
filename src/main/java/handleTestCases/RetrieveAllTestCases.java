@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 public class RetrieveAllTestCases {
     public static TestCase[] retrieveAllTestCases() {
         try {
-            InputStream inputStream = new FileInputStream(GetDirectoriesAndFiles.getTestCasesFile());
+            InputStream inputStream = new FileInputStream(GetDirectoriesAndFiles.getTestCasesFilePath());
             String testDataJson = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
             return new Gson().fromJson(testDataJson,TestCase[].class);
         } catch (IOException e) {

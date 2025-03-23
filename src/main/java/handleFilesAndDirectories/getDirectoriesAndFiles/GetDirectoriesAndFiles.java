@@ -9,17 +9,22 @@ public class GetDirectoriesAndFiles {
             resources = "resources",
             test = "test",
             configFileName = "config.properties",
-            testCasesFeleName = "testCases.json";
+            testCasesFileName = "testCases.json",
+            elementsFileName = "elements.json";
 
 
     private static final String USER_DIR = System.getProperty("user.dir");
 
-    public static String getConfigFile() {
+    public static String getConfigFilePath() {
         return Paths.get(USER_DIR, src, main, resources, configFileName).toString();
     }
 
-    public static String getTestCasesFile() {
-        return Paths.get(USER_DIR, src, test, resources, testCasesFeleName).toString();
+    public static String getTestCasesFilePath() {
+        return Paths.get(USER_DIR, src, test, resources, testCasesFileName).toString();
+    }
+
+    public static String getElementsJsonFilePath() {
+        return Paths.get(USER_DIR, src, main, resources, elementsFileName).toString();
     }
 }
 

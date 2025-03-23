@@ -1,0 +1,32 @@
+{
+  "loginPage": {
+    "appLogo": {
+      "locator": "className",
+      "value": "login_logo"
+    },
+    "usernameInput": {
+      "locator": "id",
+      "value": "user-name"
+    },
+    "passwordInput": {
+      "locator": "id",
+      "value": "password"
+    },
+    "loginBtn": {
+      "locator": "id",
+      "value": "login-button"
+    },
+    "usernameRequiredErrorMessage": {
+      "locator": "xpath",
+      "value": "//h3[contains(text(),'Epic sadface: Username is required')]"
+    },
+    "passwordRequiredErrorMessage": {
+      "locator": "xpath",
+      "value": "//h3[contains(text(),'Epic sadface: Password is required')]"
+    },
+    "wrongCredentialsErrorMessageBy": {
+      "locator": "xpath",
+      "value": "//h3[contains(text(),'Epic sadface: Username and password do not match any user in this service')]"
+    }
+  }
+}

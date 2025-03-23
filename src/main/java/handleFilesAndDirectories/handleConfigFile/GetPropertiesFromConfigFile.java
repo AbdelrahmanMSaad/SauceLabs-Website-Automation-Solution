@@ -12,7 +12,7 @@ public class GetPropertiesFromConfigFile {
     public static String getPropertyFromConfigFile(String property) {
         FileInputStream fileInputStream = null;
         try {
-            fileInputStream = new FileInputStream(new File(GetDirectoriesAndFiles.getConfigFile()));
+            fileInputStream = new FileInputStream(new File(GetDirectoriesAndFiles.getConfigFilePath()));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
